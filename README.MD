@@ -8,8 +8,8 @@ AnalysisX is an application that fetches relevant data from social media APIs an
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/AISH-1/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
+1. Clone the repository: `git clone https://github.com/AISH-1/AnalysisX.git`
+2. Navigate to the project directory: `cd AnalysisX`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
@@ -62,7 +62,7 @@ The Flask development server will start, and you can access the application by n
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. We appreciate your help in making AnalysisX better for everyone.
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have any suggestions, improvements, or bug fixes. We appreciate your help in making AnalysisX better for everyone.
 
 When contributing, please follow these guidelines:
 
@@ -71,7 +71,7 @@ When contributing, please follow these guidelines:
 - Ensure that your code adheres to the project's coding standards and style guidelines.
 - Write clear and concise commit messages to describe your changes.
 - Test your changes thoroughly to avoid introducing new issues.
-- Once you're ready, submit a pull request, and we'll review your changes as soon as possible.
+- Once you're ready, please submit a pull request, and we'll go over your changes as soon as possible.
 
 We value every contribution and strive to maintain a friendly and inclusive community. Thank you for your support and efforts in making AnalysisX a better project!
 
