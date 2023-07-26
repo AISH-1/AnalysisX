@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;700&family=Nunito:wght@400;700&family=Roboto:ital,wght@0,300;1,500&display=swap");
+
+nav {
+  color: aliceblue;
+}
+body {
+  font-family: "Hind", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a5ffdce51a584632ed4e3dd/1614162957734-KLQXF79DTVOFJAMRNPNC/Copy+of+CYG-rect-background-website.png?format=2500w");
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+h1 {
+  padding-top: 5rem;
+  text-align: center;
+  color: #fcdb78;
+}
