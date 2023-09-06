@@ -65,3 +65,15 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 # Model Training
 r = model.fit(pad_train, B, epochs=50)
+
+# Model Prediction
+def predict_statement(text):
+    text = cleanText(text)
+    seq = tokenizer.texts_to_sequences([text])
+    pad = pad_sequences(seq, maxlen=T)
+    pred = model.predict(pad)
+    return pred[0][0]
+
+# print(predict_statement("UPI transaction made with @GooglePay to @myntra but Order wasn't placed successfully. Refund not yet received. @TheOfficialSBI says complain with @myntra and @myntra says complaint with @TheOfficialSBI ! Help"))
+# print(predict_statement("Not able to link bank account. It says failed to initiate SMS. Problem is solved now.Thank You @Phonepe"))
+# print(predict_statement("I have booked flight ticket through Make My Trip.com on 15/11/2021 from Ahmedabad to Goa Round Trip. The amount of Rs.15322/- has been deducted from my creditcard. But booking was not confirmed. I have earlier contacted ICICI customer care and MMT customer care. But no have replied me properly. Please look into the matter and shortout my issue. My Credit Card No. is [protected]. #theofficialicici"))
